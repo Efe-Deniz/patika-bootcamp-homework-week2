@@ -78,3 +78,41 @@ Kullanıcı negatif üs de girebilir. Program, kullanıcıya işlemi tekrar edip
 | 0 | 0 | Belirsiz! |
 
 
+# 🔍 Prime Number Checker – Java
+
+Bu Java konsol uygulaması, kullanıcıdan alınan bir tam sayının **asal olup olmadığını** kontrol eder. Sayı 1’den büyük ve yalnızca 1 ve kendisine bölünebiliyorsa, asal kabul edilir.
+
+## 🚀 Özellikler
+
+- Kullanıcıdan tam sayı alır
+- 1 ve daha küçük sayıları otomatik olarak asal olmayan kabul eder
+- Döngüyle asal kontrolü yapar
+- Gelişmiş versiyonlarda `Math.sqrt()` ile optimizasyon yapılabilir
+- Tek seferlik doğru çıktı verir (her döngüde değil)
+
+## 💡 Asal Sayı Nedir?
+
+> Sadece 1 ve kendisine bölünebilen, 1’den büyük tam sayılardır.
+> Örnek: 2, 3, 5, 7, 11, 13 ✔️
+> 4, 6, 8, 9, 12 ❌
+
+## 📌 Kullanım
+
+1. Java 11 veya üzeri yüklü olmalı
+2. `PrimeNumberFindingProgram.java` dosyasını çalıştır
+3. Konsoldan sayı gir
+
+## 📚 Öğrenilen Java Konuları
+
+- `Scanner` ile kullanıcıdan veri alma
+- `if`, `for`, `boolean` yapıları
+- `mod` operatörü (`%`)
+- `break` ile döngüden çıkış
+- `Math.sqrt()` ile algoritma optimizasyonu (gelişmiş versiyon)
+
+
+
+
+
+
+
